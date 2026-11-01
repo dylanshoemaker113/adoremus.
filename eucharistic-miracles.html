@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eucharistic Miracles | Adoremus</title>
+  <meta name="description" content="A register of Church-investigated Eucharistic miracles from around the world, organized by country.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- All styles for this page (including the new miracle browser) live in css/style.css.
+       See miracle-browser-styles.css for the block to paste in there. -->
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <main>
+
+    <header class="page-header page-header--miracles has-banner">
+      <div class="container">
+        <span class="eyebrow eyebrow--on-dark">Eucharistic Miracles</span>
+        <h1>When the Invisible is Made Visible</h1>
+        <p>
+          Eucharistic miracles are extraordinary signs that the Church
+          believes God occasionally permits to reveal in an observable way that He truly is present in the Eucharist. In most of these events,
+          it is not only the substance that changes &mdash; as Catholics
+          believe happens at every Mass &mdash; but the
+          <em>appearance</em> as well: ordinary bread and wine become,
+          <b>visibly</b>, flesh and blood.
+        </p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+
+ <p class="miracle-source-note">
+          Based on <a href="https://www.miracolieucaristici.org/en/Liste/list.html" target="_blank" rel="noopener">Eucharistic Miracles</a> by St. Carlo Acutis
+        </p>
+
+        <div class="miracle-toolbar">
+          <input type="search" id="miracle-search" class="miracle-search" placeholder="Search by country or location…" aria-label="Search miracles">
+          <nav class="country-jump" id="country-jump" aria-label="Jump to country"></nav>
+        </div>
+
+        <div id="miracle-list"></div>
+
+        <p class="miracle-empty" id="miracle-empty">No miracles match your search.</p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/nav.js"></script>
+
+  <script src="js/miracles.js"></script>
+</body>
+</html>
