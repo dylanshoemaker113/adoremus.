@@ -1790,9 +1790,9 @@ html { scroll-padding-top: calc(var(--header-h, 64px) + 64px); }
 @media (prefers-reduced-motion: reduce) { .page-header--night::before { animation: none; } }
 
 /* Banner photos. Each slot sets --banner; the overlay keeps text legible. */
-.page-header--about { --banner: url("https://publisher-assets.ncregister.com/pb-ncregister/swp/hv9hms/media/20210606050628_65c5f03ee9750ccc583f639eeec42ca8c8c0d1f8833c40937a0c13d1c904becb.jpg"); }
+.page-header--about { --banner: url("https://www.image2url.com/r2/default/images/1793576503490-ce7ab1e2-3d9e-49b2-a53a-92430a65360a.png"); }
 .page-header--receive { --banner: url("https://cdn.catholic.com/wp-content/uploads/AdobeStock_64362394-1200x400.jpeg"); }
-.page-header--miracles { --banner: url("https://www.clevelandart.org/_next/image?url=https%3A%2F%2Fpiction.clevelandart.org%2Fcma%2Fump.di%3Fe%3D435AF66D6E1B9DB219A8BBF5D995B66AB557F220DEFE6805C2997718F86E2CB6%26s%3D24247294%26se%3D116628280%26v%3D6%26f%3D1952.112_o2.jpg&w=3840&q=75"); }
+.page-header--miracles { --banner: url("https://www.image2url.com/r2/default/images/1793577114444-d8553a3d-89cd-4cdc-b9fd-5809593a286b.png"); }
 
 /* A section heading set as a banner card (Early Church) */
 .section-header--banner {
